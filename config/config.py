@@ -7,14 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "20594535"))
-API_HASH = getenv("API_HASH", "40d94b8c167104937b2846efa895bef7")
-BOT_TOKEN = getenv("BOT_TOKEN", "5607218250:AAF5V7dFoSUFof0fjjNQ3PayQvcKXBlI0E0")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://2004:2004@cluster0.vugmi1n.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001899951693"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『sona ✘ ℳ𝓾𝓼𝓲c͢˼』")
+API_ID = int(getenv("API_ID", "18960528"))
+API_HASH = getenv("API_HASH", "cc0fff577b677c9b2b4de5dd5bc5dfd1")
+BOT_TOKEN = getenv("BOT_TOKEN", "5983601762:AAEpIdNDBoy6bacSplSR16Mvk0LuZt2SYQM")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://shubhamlovermusic:2004@cluster0.l2ec3jw.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001583255537"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『˹𝑳𝒐𝒗𝒆𝒓 ✘ ℳ𝓾𝓼𝓲c‌˼』")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1548904516").split()))
+    map(int, getenv("OWNER_ID", "6021307842").split()))
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT")
 SUPPORT_GROUP = getenv(
@@ -34,7 +34,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SPARTENX-OP/VirusMusicBot",
+    "https://github.com/shubhamsah00/Lovermusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
